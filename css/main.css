@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  background-color: #512DA8; }
+
+* {
+  box-sizing: border-box; }
+
+a {
+  text-decoration: none;
+  color: #727272; }
+
+.frame {
+  display: flex;
+  flex-direction: column; }
+
+.detail {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; }
+
+.resume {
+  background-color: #512DA8; }
+  .resume h1 {
+    color: #FFFFFF; }
+  .resume p {
+    color: #FFFFFF; }
+
+.school {
+  background-color: #3F51B5; }
+  .school h3 {
+    color: #FFFFFF; }
+  .school p {
+    color: #FFFFFF; }
+
+.work {
+  background-color: #303F9F; }
+  .work h3 {
+    color: #FFFFFF; }
+  .work p {
+    color: #FFFFFF; }
+
+.skill {
+  background-color: #3F51B5; }
+  .skill h3 {
+    color: #FFFFFF; }
+  .skill p {
+    color: #FFFFFF; }
+
+@media (min-width: 300px) {
+  .resume,
+  .school,
+  .work,
+  .skill {
+    padding-left: 20px; } }
+
+@media (min-width: 300px) {
+  .school,
+  .work,
+  .skill {
+    padding-left: 20px;
+    width: 33.33%; } }

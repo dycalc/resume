@@ -83,7 +83,14 @@ a {
   .school,
   .work,
   .skill {
-    padding-left: 20px;
+    width: 100%;
+  }
+}
+
+@media (min-width: 1000px) {
+  .school,
+  .work,
+  .skill {
     width: 33.33%;
   }
 }
